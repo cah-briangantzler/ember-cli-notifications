@@ -24,43 +24,43 @@
 
   position: fixed;
   margin: 0 auto;
-  width: var(--container-width);
-  max-width: var(--container-max-with);
+  width: 80%;
+  max-width: 400px;
 }
 
 /* Position */
 .ember-cli-notifications-notification__container--top {
-  top: var(--container-position);
+  top: 10px;
   right: 0;
   left: 0;
 }
 
 .ember-cli-notifications-notification__container--top-left {
-  top: var(--container-position);
+  top: 10px;
   right: auto;
-  left: var(--container-position);
+  left: 10px;
 }
 
 .ember-cli-notifications-notification__container--top-right {
-  top: var(--container-position);
-  right: var(--container-position);
+  top: 10px;
+  right: 10px;
   left: auto;
 }
 
 .ember-cli-notifications-notification__container--bottom {
   right: 0;
-  bottom: var(--container-position);
+  bottom: 10px;
   left: 0;
 }
 
 .ember-cli-notifications-notification__container--bottom-left {
   right: auto;
-  bottom: var(--container-position);
-  left: var(--container-position);
+  bottom: 10px;
+  left: 10px;
 }
 
 .ember-cli-notifications-notification__container--bottom-right {
-  right: var(--container-position);
-  bottom: var(--container-position);
+  right: 10px;
+  bottom: 10px;
   left: auto;
 }
